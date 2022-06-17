@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'juegoteca';
+  displayMaximizable: boolean = false;
+
+  showMaximizableDialog() {
+    this.displayMaximizable = true;
+}
+
+
+
 }
